@@ -1,1 +1,0 @@
-{"description":"","displayName":"Sponsors","methods":[],"props":{"sponsors":{"type":{"name":"arrayOf","value":{"name":"shape","value":{"image":{"name":"string","required":false}}}},"required":false,"description":"Companies to show.","defaultValue":{"value":"[]","computed":false}}},"filename":"/components/Sponsors/Sponsors.jsx"}
