@@ -16,7 +16,6 @@ import Donation from './Donation';
 import Features from './Features';
 import Footer from './Footer';
 import FormGroup from './FormGroup';
-import Gif from './Gif';
 import GithubButton from './GithubButton';
 import Header from './Header';
 import Hero from './Hero';
@@ -62,7 +61,6 @@ export {
   Features,
   Footer,
   FormGroup,
-  Gif,
   GithubButton,
   Header,
   Hero,
