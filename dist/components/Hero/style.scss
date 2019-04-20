@@ -1,0 +1,30 @@
+@import '../Container/style.scss';
+@import '../Button/style.scss';
+@import '../Header/style.scss';
+.Hero {
+  .Hero__Particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    div {
+      height: 100%;
+    }
+  }
+  .Hero__Container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    .container {
+      margin: auto;
+    }
+  }
+  .sc-htpNat {
+    opacity: 1;
+  }
+}

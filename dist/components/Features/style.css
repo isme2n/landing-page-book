@@ -1,0 +1,28 @@
+:root {
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.Card {
+  border: none;
+  background-color: transparent; }
+
+.Card--shadow {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.Features .Card img {
+  width: 100px;
+  height: 100px;
+  margin-top: 1.25rem;
+  padding: 1rem; }
+
+.Features--center .Card img {
+  margin-left: auto;
+  margin-right: auto; }
+
+.Features--left .Card img {
+  margin-right: auto; }
+
+.Features--right .Card img {
+  margin-left: auto; }

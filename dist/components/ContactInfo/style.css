@@ -1,0 +1,17 @@
+:root {
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.Card {
+  border: none;
+  background-color: transparent; }
+
+.Card--shadow {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.ContactInfo__Information {
+  line-height: 2rem; }
+  .ContactInfo__Information i {
+    width: 25px; }

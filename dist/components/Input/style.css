@@ -1,0 +1,13 @@
+.Input__Container {
+  position: relative; }
+  .Input__Container .Input__Container__Icon {
+    position: absolute;
+    top: 30%; }
+  .Input__Container .Input__Container__Conponent--left {
+    padding-left: 30px; }
+  .Input__Container .Input__Container__Conponent--right {
+    padding-right: 30px; }
+  .Input__Container .Input__Container__Icon--left {
+    left: 10px; }
+  .Input__Container .Input__Container__Icon--right {
+    right: 10px; }

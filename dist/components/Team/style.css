@@ -1,0 +1,48 @@
+:root {
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.Card {
+  border: none;
+  background-color: transparent; }
+
+.Card--shadow {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.SocialMediaShareButton {
+  display: inline-block;
+  cursor: pointer; }
+  .SocialMediaShareButton div {
+    width: 30px !important;
+    height: 30px !important; }
+  .SocialMediaShareButton svg {
+    width: 30px;
+    height: 30px; }
+
+.SocialMediaShareButton--grayScale svg {
+  filter: grayscale(1); }
+
+.Team .Card img {
+  width: 100px;
+  height: 100px;
+  margin-top: 1.25rem; }
+
+.Team--center .Card img {
+  margin-left: auto;
+  margin-right: auto; }
+
+.Team--left .Card img {
+  margin-right: auto; }
+
+.Team--right .Card img {
+  margin-left: auto; }
+
+.Team__Color {
+  position: relative; }
+  .Team__Color .Team__Color__Primary {
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    width: 100%; }

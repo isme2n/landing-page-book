@@ -1,0 +1,1498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Code Code should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Code
+    code="<h1>Title</h1>"
+    codeLink=""
+    collapsed={false}
+    collapsible={true}
+    languageCode="javascript"
+    lineNumbers={true}
+    readOnly={false}
+    showCopyButton={true}
+    showDeleteButton={true}
+    showheader={true}
+    theme="monokai"
+    updateCode={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        null,
+        <UNDEFINED>
+          <Navbar
+            brandLink=""
+            brandLogo=""
+            brandName=""
+            className="CodeMirror__header"
+            expand=""
+            fixed={false}
+            leftItems={Array []}
+            onItemClick={[Function]}
+            rightItems={Array []}
+            transparent={false}
+          >
+            <NavbarNav
+              alignItems="right"
+            >
+              
+              <CopyToClipboard
+                onCopy={[Function]}
+                options={undefined}
+                text="<h1>Title</h1>"
+              >
+                <Button
+                  active={false}
+                  ariaLabel=""
+                  circle={false}
+                  className="btn  CodeMirror_btn"
+                  color="light"
+                  disabled={false}
+                  loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
+                  onClick={[Function]}
+                  outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
+                  tooltip="Copy"
+                  type="button"
+                >
+                  <Icon
+                    className=""
+                    icon="fa fa-clone"
+                    onClick={[Function]}
+                    role="link"
+                    style={Object {}}
+                    title=""
+                  />
+                </Button>
+              </CopyToClipboard>
+              <Button
+                active={false}
+                ariaLabel=""
+                circle={false}
+                className="btn  CodeMirror_btn"
+                color="light"
+                disabled={false}
+                loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
+                onClick={[Function]}
+                outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
+                tooltip="Clear"
+                type="button"
+              >
+                <Icon
+                  className=""
+                  icon="fa fa-trash-o"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />
+              </Button>
+            </NavbarNav>
+          </Navbar>
+          <Unknown
+            autoFocus={true}
+            onChange={[Function]}
+            options={
+              Object {
+                "lineNumbers": true,
+                "mode": "javascript",
+                "readOnly": false,
+                "theme": "monokai",
+              }
+            }
+            preserveScrollPosition={false}
+            value="<h1>Title</h1>"
+          />
+        </UNDEFINED>,
+        <Navbar
+          brandLink=""
+          brandLogo=""
+          brandName=""
+          className="CodeMirror__footer"
+          expand=""
+          fixed={false}
+          leftItems={Array []}
+          onItemClick={[Function]}
+          rightItems={Array []}
+          transparent={false}
+        >
+          <Container
+            className="text-center"
+            fluid={false}
+          >
+            <Button
+              active={false}
+              ariaLabel=""
+              circle={false}
+              className="btn CodeMirror_btn"
+              color="light"
+              disabled={false}
+              loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
+              onClick={[Function]}
+              outline={false}
+              rounded={true}
+              size=""
+              style={Object {}}
+              tooltip=""
+              type="button"
+            >
+              <Icon
+                className=""
+                icon="fa fa-code"
+                onClick={[Function]}
+                style={Object {}}
+                title=""
+              />
+              <span
+                className="ml-2"
+              >
+                Hide code
+              </span>
+            </Button>
+          </Container>
+        </Navbar>,
+      ],
+      "className": "CodeMirror__Container",
+    },
+    "ref": null,
+    "rendered": Array [
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Navbar
+              brandLink=""
+              brandLogo=""
+              brandName=""
+              className="CodeMirror__header"
+              expand=""
+              fixed={false}
+              leftItems={Array []}
+              onItemClick={[Function]}
+              rightItems={Array []}
+              transparent={false}
+            >
+              <NavbarNav
+                alignItems="right"
+              >
+                
+                <CopyToClipboard
+                  onCopy={[Function]}
+                  options={undefined}
+                  text="<h1>Title</h1>"
+                >
+                  <Button
+                    active={false}
+                    ariaLabel=""
+                    circle={false}
+                    className="btn  CodeMirror_btn"
+                    color="light"
+                    disabled={false}
+                    loading={false}
+                    loadingClass="fa fa-circle-o-notch fa-spin"
+                    onClick={[Function]}
+                    outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
+                    tooltip="Copy"
+                    type="button"
+                  >
+                    <Icon
+                      className=""
+                      icon="fa fa-clone"
+                      onClick={[Function]}
+                      role="link"
+                      style={Object {}}
+                      title=""
+                    />
+                  </Button>
+                </CopyToClipboard>
+                <Button
+                  active={false}
+                  ariaLabel=""
+                  circle={false}
+                  className="btn  CodeMirror_btn"
+                  color="light"
+                  disabled={false}
+                  loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
+                  onClick={[Function]}
+                  outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
+                  tooltip="Clear"
+                  type="button"
+                >
+                  <Icon
+                    className=""
+                    icon="fa fa-trash-o"
+                    onClick={[Function]}
+                    style={Object {}}
+                    title=""
+                  />
+                </Button>
+              </NavbarNav>
+            </Navbar>,
+            <Unknown
+              autoFocus={true}
+              onChange={[Function]}
+              options={
+                Object {
+                  "lineNumbers": true,
+                  "mode": "javascript",
+                  "readOnly": false,
+                  "theme": "monokai",
+                }
+              }
+              preserveScrollPosition={false}
+              value="<h1>Title</h1>"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "brandLink": "",
+              "brandLogo": "",
+              "brandName": "",
+              "children": <NavbarNav
+                alignItems="right"
+              >
+                
+                <CopyToClipboard
+                  onCopy={[Function]}
+                  options={undefined}
+                  text="<h1>Title</h1>"
+                >
+                  <Button
+                    active={false}
+                    ariaLabel=""
+                    circle={false}
+                    className="btn  CodeMirror_btn"
+                    color="light"
+                    disabled={false}
+                    loading={false}
+                    loadingClass="fa fa-circle-o-notch fa-spin"
+                    onClick={[Function]}
+                    outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
+                    tooltip="Copy"
+                    type="button"
+                  >
+                    <Icon
+                      className=""
+                      icon="fa fa-clone"
+                      onClick={[Function]}
+                      role="link"
+                      style={Object {}}
+                      title=""
+                    />
+                  </Button>
+                </CopyToClipboard>
+                <Button
+                  active={false}
+                  ariaLabel=""
+                  circle={false}
+                  className="btn  CodeMirror_btn"
+                  color="light"
+                  disabled={false}
+                  loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
+                  onClick={[Function]}
+                  outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
+                  tooltip="Clear"
+                  type="button"
+                >
+                  <Icon
+                    className=""
+                    icon="fa fa-trash-o"
+                    onClick={[Function]}
+                    style={Object {}}
+                    title=""
+                  />
+                </Button>
+              </NavbarNav>,
+              "className": "CodeMirror__header",
+              "expand": "",
+              "fixed": false,
+              "leftItems": Array [],
+              "onItemClick": [Function],
+              "rightItems": Array [],
+              "transparent": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "right",
+                "children": Array [
+                  "",
+                  <CopyToClipboard
+                    onCopy={[Function]}
+                    options={undefined}
+                    text="<h1>Title</h1>"
+                  >
+                    <Button
+                      active={false}
+                      ariaLabel=""
+                      circle={false}
+                      className="btn  CodeMirror_btn"
+                      color="light"
+                      disabled={false}
+                      loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
+                      onClick={[Function]}
+                      outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
+                      tooltip="Copy"
+                      type="button"
+                    >
+                      <Icon
+                        className=""
+                        icon="fa fa-clone"
+                        onClick={[Function]}
+                        role="link"
+                        style={Object {}}
+                        title=""
+                      />
+                    </Button>
+                  </CopyToClipboard>,
+                  <Button
+                    active={false}
+                    ariaLabel=""
+                    circle={false}
+                    className="btn  CodeMirror_btn"
+                    color="light"
+                    disabled={false}
+                    loading={false}
+                    loadingClass="fa fa-circle-o-notch fa-spin"
+                    onClick={[Function]}
+                    outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
+                    tooltip="Clear"
+                    type="button"
+                  >
+                    <Icon
+                      className=""
+                      icon="fa fa-trash-o"
+                      onClick={[Function]}
+                      style={Object {}}
+                      title=""
+                    />
+                  </Button>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Button
+                      active={false}
+                      ariaLabel=""
+                      circle={false}
+                      className="btn  CodeMirror_btn"
+                      color="light"
+                      disabled={false}
+                      loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
+                      onClick={[Function]}
+                      outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
+                      tooltip="Copy"
+                      type="button"
+                    >
+                      <Icon
+                        className=""
+                        icon="fa fa-clone"
+                        onClick={[Function]}
+                        role="link"
+                        style={Object {}}
+                        title=""
+                      />
+                    </Button>,
+                    "onCopy": [Function],
+                    "options": undefined,
+                    "text": "<h1>Title</h1>",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "active": false,
+                      "ariaLabel": "",
+                      "children": <Icon
+                        className=""
+                        icon="fa fa-clone"
+                        onClick={[Function]}
+                        role="link"
+                        style={Object {}}
+                        title=""
+                      />,
+                      "circle": false,
+                      "className": "btn  CodeMirror_btn",
+                      "color": "light",
+                      "disabled": false,
+                      "loading": false,
+                      "loadingClass": "fa fa-circle-o-notch fa-spin",
+                      "onClick": [Function],
+                      "outline": false,
+                      "rounded": true,
+                      "size": "",
+                      "style": Object {},
+                      "tooltip": "Copy",
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "className": "",
+                        "icon": "fa fa-clone",
+                        "onClick": [Function],
+                        "role": "link",
+                        "style": Object {},
+                        "title": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": false,
+                    "ariaLabel": "",
+                    "children": <Icon
+                      className=""
+                      icon="fa fa-trash-o"
+                      onClick={[Function]}
+                      style={Object {}}
+                      title=""
+                    />,
+                    "circle": false,
+                    "className": "btn  CodeMirror_btn",
+                    "color": "light",
+                    "disabled": false,
+                    "loading": false,
+                    "loadingClass": "fa fa-circle-o-notch fa-spin",
+                    "onClick": [Function],
+                    "outline": false,
+                    "rounded": true,
+                    "size": "",
+                    "style": Object {},
+                    "tooltip": "Clear",
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "className": "",
+                      "icon": "fa fa-trash-o",
+                      "onClick": [Function],
+                      "style": Object {},
+                      "title": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoFocus": true,
+              "onChange": [Function],
+              "options": Object {
+                "lineNumbers": true,
+                "mode": "javascript",
+                "readOnly": false,
+                "theme": "monokai",
+              },
+              "preserveScrollPosition": false,
+              "value": "<h1>Title</h1>",
+            },
+            "ref": "editor",
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": Symbol(react.fragment),
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "brandLink": "",
+          "brandLogo": "",
+          "brandName": "",
+          "children": <Container
+            className="text-center"
+            fluid={false}
+          >
+            <Button
+              active={false}
+              ariaLabel=""
+              circle={false}
+              className="btn CodeMirror_btn"
+              color="light"
+              disabled={false}
+              loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
+              onClick={[Function]}
+              outline={false}
+              rounded={true}
+              size=""
+              style={Object {}}
+              tooltip=""
+              type="button"
+            >
+              <Icon
+                className=""
+                icon="fa fa-code"
+                onClick={[Function]}
+                style={Object {}}
+                title=""
+              />
+              <span
+                className="ml-2"
+              >
+                Hide code
+              </span>
+            </Button>
+          </Container>,
+          "className": "CodeMirror__footer",
+          "expand": "",
+          "fixed": false,
+          "leftItems": Array [],
+          "onItemClick": [Function],
+          "rightItems": Array [],
+          "transparent": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Button
+              active={false}
+              ariaLabel=""
+              circle={false}
+              className="btn CodeMirror_btn"
+              color="light"
+              disabled={false}
+              loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
+              onClick={[Function]}
+              outline={false}
+              rounded={true}
+              size=""
+              style={Object {}}
+              tooltip=""
+              type="button"
+            >
+              <Icon
+                className=""
+                icon="fa fa-code"
+                onClick={[Function]}
+                style={Object {}}
+                title=""
+              />
+              <span
+                className="ml-2"
+              >
+                Hide code
+              </span>
+            </Button>,
+            "className": "text-center",
+            "fluid": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "ariaLabel": "",
+              "children": Array [
+                <Icon
+                  className=""
+                  icon="fa fa-code"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />,
+                <span
+                  className="ml-2"
+                >
+                  Hide code
+                </span>,
+              ],
+              "circle": false,
+              "className": "btn CodeMirror_btn",
+              "color": "light",
+              "disabled": false,
+              "loading": false,
+              "loadingClass": "fa fa-circle-o-notch fa-spin",
+              "onClick": [Function],
+              "outline": false,
+              "rounded": true,
+              "size": "",
+              "style": Object {},
+              "tooltip": "",
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "",
+                  "icon": "fa fa-code",
+                  "onClick": [Function],
+                  "style": Object {},
+                  "title": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hide code",
+                  "className": "ml-2",
+                },
+                "ref": null,
+                "rendered": "Hide code",
+                "type": "span",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          null,
+          <UNDEFINED>
+            <Navbar
+              brandLink=""
+              brandLogo=""
+              brandName=""
+              className="CodeMirror__header"
+              expand=""
+              fixed={false}
+              leftItems={Array []}
+              onItemClick={[Function]}
+              rightItems={Array []}
+              transparent={false}
+            >
+              <NavbarNav
+                alignItems="right"
+              >
+                
+                <CopyToClipboard
+                  onCopy={[Function]}
+                  options={undefined}
+                  text="<h1>Title</h1>"
+                >
+                  <Button
+                    active={false}
+                    ariaLabel=""
+                    circle={false}
+                    className="btn  CodeMirror_btn"
+                    color="light"
+                    disabled={false}
+                    loading={false}
+                    loadingClass="fa fa-circle-o-notch fa-spin"
+                    onClick={[Function]}
+                    outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
+                    tooltip="Copy"
+                    type="button"
+                  >
+                    <Icon
+                      className=""
+                      icon="fa fa-clone"
+                      onClick={[Function]}
+                      role="link"
+                      style={Object {}}
+                      title=""
+                    />
+                  </Button>
+                </CopyToClipboard>
+                <Button
+                  active={false}
+                  ariaLabel=""
+                  circle={false}
+                  className="btn  CodeMirror_btn"
+                  color="light"
+                  disabled={false}
+                  loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
+                  onClick={[Function]}
+                  outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
+                  tooltip="Clear"
+                  type="button"
+                >
+                  <Icon
+                    className=""
+                    icon="fa fa-trash-o"
+                    onClick={[Function]}
+                    style={Object {}}
+                    title=""
+                  />
+                </Button>
+              </NavbarNav>
+            </Navbar>
+            <Unknown
+              autoFocus={true}
+              onChange={[Function]}
+              options={
+                Object {
+                  "lineNumbers": true,
+                  "mode": "javascript",
+                  "readOnly": false,
+                  "theme": "monokai",
+                }
+              }
+              preserveScrollPosition={false}
+              value="<h1>Title</h1>"
+            />
+          </UNDEFINED>,
+          <Navbar
+            brandLink=""
+            brandLogo=""
+            brandName=""
+            className="CodeMirror__footer"
+            expand=""
+            fixed={false}
+            leftItems={Array []}
+            onItemClick={[Function]}
+            rightItems={Array []}
+            transparent={false}
+          >
+            <Container
+              className="text-center"
+              fluid={false}
+            >
+              <Button
+                active={false}
+                ariaLabel=""
+                circle={false}
+                className="btn CodeMirror_btn"
+                color="light"
+                disabled={false}
+                loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
+                onClick={[Function]}
+                outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
+                tooltip=""
+                type="button"
+              >
+                <Icon
+                  className=""
+                  icon="fa fa-code"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />
+                <span
+                  className="ml-2"
+                >
+                  Hide code
+                </span>
+              </Button>
+            </Container>
+          </Navbar>,
+        ],
+        "className": "CodeMirror__Container",
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Navbar
+                brandLink=""
+                brandLogo=""
+                brandName=""
+                className="CodeMirror__header"
+                expand=""
+                fixed={false}
+                leftItems={Array []}
+                onItemClick={[Function]}
+                rightItems={Array []}
+                transparent={false}
+              >
+                <NavbarNav
+                  alignItems="right"
+                >
+                  
+                  <CopyToClipboard
+                    onCopy={[Function]}
+                    options={undefined}
+                    text="<h1>Title</h1>"
+                  >
+                    <Button
+                      active={false}
+                      ariaLabel=""
+                      circle={false}
+                      className="btn  CodeMirror_btn"
+                      color="light"
+                      disabled={false}
+                      loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
+                      onClick={[Function]}
+                      outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
+                      tooltip="Copy"
+                      type="button"
+                    >
+                      <Icon
+                        className=""
+                        icon="fa fa-clone"
+                        onClick={[Function]}
+                        role="link"
+                        style={Object {}}
+                        title=""
+                      />
+                    </Button>
+                  </CopyToClipboard>
+                  <Button
+                    active={false}
+                    ariaLabel=""
+                    circle={false}
+                    className="btn  CodeMirror_btn"
+                    color="light"
+                    disabled={false}
+                    loading={false}
+                    loadingClass="fa fa-circle-o-notch fa-spin"
+                    onClick={[Function]}
+                    outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
+                    tooltip="Clear"
+                    type="button"
+                  >
+                    <Icon
+                      className=""
+                      icon="fa fa-trash-o"
+                      onClick={[Function]}
+                      style={Object {}}
+                      title=""
+                    />
+                  </Button>
+                </NavbarNav>
+              </Navbar>,
+              <Unknown
+                autoFocus={true}
+                onChange={[Function]}
+                options={
+                  Object {
+                    "lineNumbers": true,
+                    "mode": "javascript",
+                    "readOnly": false,
+                    "theme": "monokai",
+                  }
+                }
+                preserveScrollPosition={false}
+                value="<h1>Title</h1>"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "brandLink": "",
+                "brandLogo": "",
+                "brandName": "",
+                "children": <NavbarNav
+                  alignItems="right"
+                >
+                  
+                  <CopyToClipboard
+                    onCopy={[Function]}
+                    options={undefined}
+                    text="<h1>Title</h1>"
+                  >
+                    <Button
+                      active={false}
+                      ariaLabel=""
+                      circle={false}
+                      className="btn  CodeMirror_btn"
+                      color="light"
+                      disabled={false}
+                      loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
+                      onClick={[Function]}
+                      outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
+                      tooltip="Copy"
+                      type="button"
+                    >
+                      <Icon
+                        className=""
+                        icon="fa fa-clone"
+                        onClick={[Function]}
+                        role="link"
+                        style={Object {}}
+                        title=""
+                      />
+                    </Button>
+                  </CopyToClipboard>
+                  <Button
+                    active={false}
+                    ariaLabel=""
+                    circle={false}
+                    className="btn  CodeMirror_btn"
+                    color="light"
+                    disabled={false}
+                    loading={false}
+                    loadingClass="fa fa-circle-o-notch fa-spin"
+                    onClick={[Function]}
+                    outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
+                    tooltip="Clear"
+                    type="button"
+                  >
+                    <Icon
+                      className=""
+                      icon="fa fa-trash-o"
+                      onClick={[Function]}
+                      style={Object {}}
+                      title=""
+                    />
+                  </Button>
+                </NavbarNav>,
+                "className": "CodeMirror__header",
+                "expand": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "onItemClick": [Function],
+                "rightItems": Array [],
+                "transparent": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alignItems": "right",
+                  "children": Array [
+                    "",
+                    <CopyToClipboard
+                      onCopy={[Function]}
+                      options={undefined}
+                      text="<h1>Title</h1>"
+                    >
+                      <Button
+                        active={false}
+                        ariaLabel=""
+                        circle={false}
+                        className="btn  CodeMirror_btn"
+                        color="light"
+                        disabled={false}
+                        loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
+                        onClick={[Function]}
+                        outline={false}
+                        rounded={true}
+                        size=""
+                        style={Object {}}
+                        tooltip="Copy"
+                        type="button"
+                      >
+                        <Icon
+                          className=""
+                          icon="fa fa-clone"
+                          onClick={[Function]}
+                          role="link"
+                          style={Object {}}
+                          title=""
+                        />
+                      </Button>
+                    </CopyToClipboard>,
+                    <Button
+                      active={false}
+                      ariaLabel=""
+                      circle={false}
+                      className="btn  CodeMirror_btn"
+                      color="light"
+                      disabled={false}
+                      loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
+                      onClick={[Function]}
+                      outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
+                      tooltip="Clear"
+                      type="button"
+                    >
+                      <Icon
+                        className=""
+                        icon="fa fa-trash-o"
+                        onClick={[Function]}
+                        style={Object {}}
+                        title=""
+                      />
+                    </Button>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Button
+                        active={false}
+                        ariaLabel=""
+                        circle={false}
+                        className="btn  CodeMirror_btn"
+                        color="light"
+                        disabled={false}
+                        loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
+                        onClick={[Function]}
+                        outline={false}
+                        rounded={true}
+                        size=""
+                        style={Object {}}
+                        tooltip="Copy"
+                        type="button"
+                      >
+                        <Icon
+                          className=""
+                          icon="fa fa-clone"
+                          onClick={[Function]}
+                          role="link"
+                          style={Object {}}
+                          title=""
+                        />
+                      </Button>,
+                      "onCopy": [Function],
+                      "options": undefined,
+                      "text": "<h1>Title</h1>",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "active": false,
+                        "ariaLabel": "",
+                        "children": <Icon
+                          className=""
+                          icon="fa fa-clone"
+                          onClick={[Function]}
+                          role="link"
+                          style={Object {}}
+                          title=""
+                        />,
+                        "circle": false,
+                        "className": "btn  CodeMirror_btn",
+                        "color": "light",
+                        "disabled": false,
+                        "loading": false,
+                        "loadingClass": "fa fa-circle-o-notch fa-spin",
+                        "onClick": [Function],
+                        "outline": false,
+                        "rounded": true,
+                        "size": "",
+                        "style": Object {},
+                        "tooltip": "Copy",
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "className": "",
+                          "icon": "fa fa-clone",
+                          "onClick": [Function],
+                          "role": "link",
+                          "style": Object {},
+                          "title": "",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "active": false,
+                      "ariaLabel": "",
+                      "children": <Icon
+                        className=""
+                        icon="fa fa-trash-o"
+                        onClick={[Function]}
+                        style={Object {}}
+                        title=""
+                      />,
+                      "circle": false,
+                      "className": "btn  CodeMirror_btn",
+                      "color": "light",
+                      "disabled": false,
+                      "loading": false,
+                      "loadingClass": "fa fa-circle-o-notch fa-spin",
+                      "onClick": [Function],
+                      "outline": false,
+                      "rounded": true,
+                      "size": "",
+                      "style": Object {},
+                      "tooltip": "Clear",
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "className": "",
+                        "icon": "fa fa-trash-o",
+                        "onClick": [Function],
+                        "style": Object {},
+                        "title": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoFocus": true,
+                "onChange": [Function],
+                "options": Object {
+                  "lineNumbers": true,
+                  "mode": "javascript",
+                  "readOnly": false,
+                  "theme": "monokai",
+                },
+                "preserveScrollPosition": false,
+                "value": "<h1>Title</h1>",
+              },
+              "ref": "editor",
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": Symbol(react.fragment),
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "brandLink": "",
+            "brandLogo": "",
+            "brandName": "",
+            "children": <Container
+              className="text-center"
+              fluid={false}
+            >
+              <Button
+                active={false}
+                ariaLabel=""
+                circle={false}
+                className="btn CodeMirror_btn"
+                color="light"
+                disabled={false}
+                loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
+                onClick={[Function]}
+                outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
+                tooltip=""
+                type="button"
+              >
+                <Icon
+                  className=""
+                  icon="fa fa-code"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />
+                <span
+                  className="ml-2"
+                >
+                  Hide code
+                </span>
+              </Button>
+            </Container>,
+            "className": "CodeMirror__footer",
+            "expand": "",
+            "fixed": false,
+            "leftItems": Array [],
+            "onItemClick": [Function],
+            "rightItems": Array [],
+            "transparent": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Button
+                active={false}
+                ariaLabel=""
+                circle={false}
+                className="btn CodeMirror_btn"
+                color="light"
+                disabled={false}
+                loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
+                onClick={[Function]}
+                outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
+                tooltip=""
+                type="button"
+              >
+                <Icon
+                  className=""
+                  icon="fa fa-code"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />
+                <span
+                  className="ml-2"
+                >
+                  Hide code
+                </span>
+              </Button>,
+              "className": "text-center",
+              "fluid": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "ariaLabel": "",
+                "children": Array [
+                  <Icon
+                    className=""
+                    icon="fa fa-code"
+                    onClick={[Function]}
+                    style={Object {}}
+                    title=""
+                  />,
+                  <span
+                    className="ml-2"
+                  >
+                    Hide code
+                  </span>,
+                ],
+                "circle": false,
+                "className": "btn CodeMirror_btn",
+                "color": "light",
+                "disabled": false,
+                "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
+                "onClick": [Function],
+                "outline": false,
+                "rounded": true,
+                "size": "",
+                "style": Object {},
+                "tooltip": "",
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "",
+                    "icon": "fa fa-code",
+                    "onClick": [Function],
+                    "style": Object {},
+                    "title": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Hide code",
+                    "className": "ml-2",
+                  },
+                  "ref": null,
+                  "rendered": "Hide code",
+                  "type": "span",
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

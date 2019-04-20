@@ -1,0 +1,20 @@
+@import '../Card/style.scss';
+.Features .Card img {
+  width: 100px;
+  height: 100px;
+  margin-top: 1.25rem;
+  padding: 1rem;
+}
+
+.Features--center .Card img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Features--left .Card img {
+  margin-right: auto;
+}
+
+.Features--right .Card img {
+  margin-left: auto;
+}
